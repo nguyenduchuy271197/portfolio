@@ -49,7 +49,7 @@ export default function Page() {
           </Markdown>
         </BlurFade>
       </section>
-      <section id="work">
+      {/* <section id="work">
         <div className="flex min-h-0 flex-col gap-y-3">
           <BlurFade delay={BLUR_FADE_DELAY * 5}>
             <h2 className="text-xl font-bold">Work Experience</h2>
@@ -73,7 +73,7 @@ export default function Page() {
             </BlurFade>
           ))}
         </div>
-      </section>
+      </section> */}
       <section id="education">
         <div className="flex min-h-0 flex-col gap-y-3">
           <BlurFade delay={BLUR_FADE_DELAY * 7}>
@@ -161,14 +161,11 @@ export default function Page() {
                   Career Progression
                 </div>
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
-                  From Developer to Technical Leader
+                  From Developer to Tech Lead
                 </h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  My professional journey has taken me through various roles in
-                  the tech industry, each building upon the skills and
-                  experience gained in previous positions. This progression
-                  demonstrates my growth from hands-on development to strategic
-                  technical leadership.
+                  I grew in the tech industry from hands-on developer to
+                  technical leader, building skills at each step.
                 </p>
               </div>
             </div>
@@ -207,10 +204,10 @@ export default function Page() {
               <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                 Want to chat? Just shoot me a dm{" "}
                 <Link
-                  href={DATA.contact.social.X.url}
+                  href={DATA.contact.social.LinkedIn.url}
                   className="text-blue-500 hover:underline"
                 >
-                  with a direct question on twitter
+                  with a direct question on LinkedIn
                 </Link>{" "}
                 and I&apos;ll respond whenever I can. I will ignore all
                 soliciting.

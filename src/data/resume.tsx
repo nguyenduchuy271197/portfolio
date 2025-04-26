@@ -10,21 +10,23 @@ export const DATA = {
   description:
     "Software Engineer turned Indie Hacker. I love building things and helping people.",
   summary:
-    "At the end of 2022, I quit my job as a software engineer to go fulltime into building and scaling my own SaaS businesses. In the past, [I pursued a double degree in computer science and business](/#education), [interned at big tech companies in Silicon Valley](https://www.youtube.com/watch?v=d-LJ2e5qKdE), and [progressed through various roles in my career](/#career). I also had the pleasure of being a part of the first ever in-person cohort of buildspace called [buildspace sf1](https://buildspace.so/sf1).",
+    "Senior Software Engineer with nearly 5 years of experience and a background in electrical engineering. Combined tech skills with business knowledge to grow at top tech companies. Good at building software, leading teams, and using business thinking to solve technical problems.",
   avatarUrl: "/me.jpg",
   skills: [
     "React",
-    "React Native",
     "Next.js",
     "Typescript",
-    "Expo",
+    "Tailwind CSS",
     "Node.js",
+    "NestJS",
     "Python",
     "Postgres",
+    "MongoDB",
     "Docker",
     "AWS",
     "CI/CD",
     "Git",
+    "Supabase",
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
@@ -36,34 +38,34 @@ export const DATA = {
     social: {
       GitHub: {
         name: "GitHub",
-        url: "https://dub.sh/dillion-github",
+        url: "https://github.com/nguyenduchuy271197",
         icon: Icons.github,
 
         navbar: true,
       },
       LinkedIn: {
         name: "LinkedIn",
-        url: "https://dub.sh/dillion-linkedin",
+        url: "https://www.linkedin.com/in/huy-nguyen-451483196/",
         icon: Icons.linkedin,
 
         navbar: true,
       },
       X: {
         name: "X",
-        url: "https://dub.sh/dillion-twitter",
+        url: "https://x.com/DucHuy55363957",
         icon: Icons.x,
 
         navbar: true,
       },
-      Youtube: {
-        name: "Youtube",
-        url: "https://dub.sh/dillion-youtube",
-        icon: Icons.youtube,
-        navbar: true,
-      },
+      // Youtube: {
+      //   name: "Youtube",
+      //   url: "https://dub.sh/dillion-youtube",
+      //   icon: Icons.youtube,
+      //   navbar: true,
+      // },
       email: {
         name: "Send Email",
-        url: "#",
+        url: "mailto:huynguyen271197@gmail.com",
         icon: Icons.email,
 
         navbar: false,
@@ -147,36 +149,12 @@ export const DATA = {
   ],
   education: [
     {
-      school: "Buildspace",
-      href: "https://buildspace.so",
-      degree: "s3, s4, sf1, s5",
-      logoUrl: "/buildspace.jpg",
-      start: "2023",
-      end: "2024",
-    },
-    {
-      school: "University of Waterloo",
+      school: "Bach Khoa University",
       href: "https://uwaterloo.ca",
-      degree: "Bachelor's Degree of Computer Science (BCS)",
-      logoUrl: "/waterloo.png",
-      start: "2016",
-      end: "2021",
-    },
-    {
-      school: "Wilfrid Laurier University",
-      href: "https://wlu.ca",
-      degree: "Bachelor's Degree of Business Administration (BBA)",
-      logoUrl: "/laurier.png",
-      start: "2016",
-      end: "2021",
-    },
-    {
-      school: "International Baccalaureate",
-      href: "https://ibo.org",
-      degree: "IB Diploma",
-      logoUrl: "/ib.png",
-      start: "2012",
-      end: "2016",
+      degree: "Bachelor's Degree of Electrical Engineering",
+      logoUrl: "/hcmut.png",
+      start: "2015",
+      end: "2020",
     },
   ],
   projects: [
@@ -305,33 +283,30 @@ export const DATA = {
   ],
   careerRoles: [
     {
-      title: "Fullstack Developer / Instructor",
-      dates: "2021 - 2022",
-      location: "TechEd Innovation",
+      title: "Tech Lead",
+      dates: "2024 - 2025",
+      location: "LIKELION",
       description:
-        "Architected and deployed full-stack applications using React, Node.js, and PostgreSQL that increased client satisfaction by 35%. Mentored 20+ junior developers through hands-on workshops and pair programming sessions, with 90% advancing to senior roles within 18 months. Developed curriculum and led technical training programs that reduced onboarding time by 40% for new engineering hires.",
-      image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/hack-the-north.png",
+        "Led a team of engineers to build a job search platform for the US market. Made key technology decisions that helped strengthen our company's market position. Improved our development processes while maintaining high quality standards.",
+      image: "/likelion.png",
       links: [],
     },
     {
       title: "Senior Software Engineer",
       dates: "2022 - 2024",
-      location: "EnterpriseScale Solutions",
+      location: "LIKELION",
       description:
-        "Spearheaded migration from monolith to microservices architecture that improved system reliability by 99.9% and reduced deployment times by 75%. Designed and implemented event-driven architecture handling 1M+ daily transactions with sub-200ms response times. Introduced automated testing strategies that caught 95% of bugs before production deployment, saving an estimated 200+ engineering hours monthly.",
-      image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/firstnet.png",
+        "Built a recruiting platform connecting Vietnamese programmers with job opportunities in South Korea. Helped improve our system architecture, enhancing reliability and reducing deployment times. Implemented testing strategies that caught bugs before going live, saving significant engineering time.",
+      image: "/likelion.png",
       links: [],
     },
     {
-      title: "Tech Lead",
-      dates: "2024 - 2025",
-      location: "FutureTech Innovations",
+      title: "Web Development / Data Analysis Instructor",
+      dates: "2021 - 2024",
+      location: "LIKELION",
       description:
-        "Led cross-functional team of 12 engineers delivering mission-critical products that generated $2.5M in new annual revenue. Established technical roadmap and architecture decisions that positioned the company as an industry leader in AI-powered solutions. Implemented agile methodologies that decreased time-to-market by 60% while maintaining exceptional code quality standards.",
-      image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/firstnet.png",
+        "Trained 500+ students from universities including UIT, UEH, USSH, and IUH. Led 4 bootcamps that helped participants find jobs after completion. Built full-stack applications using React, Node.js, and PostgreSQL that increased client satisfaction by 35%. Mentored more than 10 junior developers through workshops and coding sessions. Created training programs that reduced new hire onboarding time by 40%.",
+      image: "/likelion.png",
       links: [],
     },
   ],
