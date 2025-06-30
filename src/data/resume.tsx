@@ -161,7 +161,6 @@ export const DATA = {
     {
       title: "Learning Management System (LMS)",
       href: "https://lms-hn.vercel.app/",
-      dates: "March 2024 - Present",
       active: true,
       description:
         "Built a comprehensive Learning Management System with course creation, student enrollment, progress tracking, and interactive learning modules.",
@@ -183,8 +182,7 @@ export const DATA = {
     },
     {
       title: "Minishop E-commerce",
-      href: "https://minishop-hn.vercel.app/", // Update with actual URL
-      dates: "January 2024 - April 2024",
+      href: "https://minishop-hn.vercel.app/",
       active: true,
       description:
         "Developed a modern e-commerce platform with product catalog, shopping cart, payment processing, and order management. Includes admin dashboard, inventory tracking, and customer analytics.",
@@ -192,7 +190,7 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "https://minishop-hn.vercel.app/", // Update with actual URL
+          href: "https://minishop-hn.vercel.app/",
           icon: <Icons.globe className="size-3" />,
         },
         {
@@ -207,7 +205,6 @@ export const DATA = {
     {
       title: "Job Board Platform",
       href: "https://jobboard-hn.vercel.app/",
-      dates: "October 2023 - February 2024",
       active: true,
       description:
         "Created a job board platform connecting employers and job seekers. Features job posting, application tracking, resume parsing, advanced search filters, and automated matching algorithms.",
@@ -230,7 +227,6 @@ export const DATA = {
     {
       title: "Healthcare Management System",
       href: "https://healthcare-hn.vercel.app/",
-      dates: "August 2023 - December 2023",
       active: true,
       description:
         "Built a healthcare management system for clinics and hospitals. Includes patient records, appointment scheduling, medical history tracking, prescription management, and telemedicine capabilities.",
@@ -249,6 +245,158 @@ export const DATA = {
       ],
       image: "",
       video: "/videos/healthcare-demo.mp4",
+    },
+  ],
+  products: [
+    {
+      title: "LIKELION",
+      href: "https://likelion.edu.vn/",
+      dates: "2021 - 2024",
+      active: true,
+      description:
+        "Developed a comprehensive programming education platform offering coding bootcamps, technical courses, and skill development programs. Features course management, student progress tracking, interactive coding exercises, and certification systems.",
+      technologies: [
+        "Next.js",
+        "TypeScript",
+        "Prisma",
+        "Shadcn UI",
+        "PostgreSQL",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://likelion.edu.vn/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/products/likelion.png",
+      video: "",
+    },
+    {
+      title: "KTC",
+      href: "https://ktc.likelion.edu.vn/",
+      dates: "2024 - 2025",
+      active: true,
+      description:
+        "Built a government-sponsored programming training platform funded by the Korean government. Provides structured coding curriculum, mentorship programs, and career development pathways for Vietnamese developers.",
+      technologies: ["Next.js", "TypeScript", "Shadcn UI", "Google Form"],
+      links: [
+        {
+          type: "Website",
+          href: "https://ktc.likelion.edu.vn/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/products/ktc.png",
+      video: "",
+    },
+    {
+      title: "Smart Lion",
+      href: "https://smartlion-landing.vercel.app/",
+      dates: "2023 - 2024",
+      active: true,
+      description:
+        "Created an outsourcing services platform that connects clients with development teams. Features project management, team collaboration tools, client communication systems, and resource allocation for efficient outsourcing operations.",
+      technologies: ["Next.js", "TypeScript", "Postgres", "Shadcn UI"],
+      links: [
+        {
+          type: "Website",
+          href: "https://smartlion-landing.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/products/smart-lion.png",
+      video: "",
+    },
+    {
+      title: "KTech College",
+      href: "https://ktc-landing.vercel.app/",
+      dates: "2024 - 2025",
+      active: true,
+      description:
+        "Developed a specialized job fair platform connecting Vietnamese programmers with Korean employers. Includes developer profiles, skill assessments, company showcases, interview scheduling, and cross-cultural career matching.",
+      technologies: ["Next.js", "TypeScript", "Postgres", "Shadcn UI"],
+      links: [
+        {
+          type: "Website",
+          href: "https://ktc-landing.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/products/ktech-college.png",
+      video: "",
+    },
+    {
+      title: "Easy Lion",
+      href: "https://easylion-landing.vercel.app/",
+      dates: "2023 - 2024",
+      active: true,
+      description:
+        "Built a business collaboration platform facilitating partnerships between companies. Features project collaboration tools, document sharing, communication channels, partnership management, and workflow coordination.",
+      technologies: ["Next.js", "TypeScript", "Postgres", "Shadcn UI"],
+      links: [
+        {
+          type: "Website",
+          href: "https://easylion-landing.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/products/easy-lion.png",
+      video: "",
+    },
+    {
+      title: "HR Platform",
+      href: "https://likelion-hr.vercel.app/",
+      dates: "2023 - 2024",
+      active: true,
+      description:
+        "Created a comprehensive HR outsourcing platform providing end-to-end human resources services. Includes recruitment management, payroll processing, employee onboarding, performance tracking, and compliance management for client companies.",
+      technologies: ["Next.js", "TypeScript", "Postgres", "Shadcn UI"],
+      links: [
+        {
+          type: "Website",
+          href: "https://likelion-hr.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/products/hr-platform.png",
+      video: "",
+    },
+    {
+      title: "Turning Point",
+      href: "https://www.turningpoint.asia/",
+      dates: "2023 - 2024",
+      active: true,
+      description:
+        "Developed a versatile online learning platform offering short-term courses across multiple disciplines including programming, business, design, marketing, and professional development. Features diverse course catalog and flexible learning paths.",
+      technologies: ["Next.js", "TypeScript", "Postgres", "Shadcn UI"],
+      links: [
+        {
+          type: "Website",
+          href: "https://www.turningpoint.asia/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/products/turning-point.png",
+      video: "",
+    },
+    {
+      title: "Newland",
+      href: "https://newland-landing.vercel.app/",
+      dates: "2024 - 2025",
+      active: true,
+      description:
+        "Built a healthcare management system for clinics and hospitals. Includes patient records, appointment scheduling, medical history tracking, prescription management, and telemedicine capabilities.",
+      technologies: ["Next.js", "TypeScript", "Postgres", "Shadcn UI"],
+      links: [
+        {
+          type: "Website",
+          href: "https://newland-landing.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/products/newland.png",
+      video: "",
     },
   ],
   careerRoles: [

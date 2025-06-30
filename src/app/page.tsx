@@ -152,6 +152,47 @@ export default function Page() {
           </div>
         </div>
       </section>
+      <section id="products">
+        <div className="space-y-12 w-full py-12">
+          <BlurFade delay={BLUR_FADE_DELAY * 11}>
+            <div className="flex flex-col items-center justify-center space-y-4 text-center">
+              <div className="space-y-2">
+                <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm">
+                  My Products
+                </div>
+                <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
+                  Products I've Built
+                </h2>
+                <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+                  Innovative solutions designed to solve real-world problems.
+                  Each product showcases my passion for creating meaningful
+                  digital experiences.
+                </p>
+              </div>
+            </div>
+          </BlurFade>
+          <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 max-w-[800px] mx-auto">
+            {DATA.products.map((product, id) => (
+              <BlurFade
+                key={product.title}
+                delay={BLUR_FADE_DELAY * 12 + id * 0.05}
+              >
+                <ProjectCard
+                  href={product.href}
+                  key={product.title}
+                  title={product.title}
+                  description={product.description}
+                  dates={product.dates}
+                  tags={product.technologies}
+                  image={product.image}
+                  video={product.video}
+                  links={product.links}
+                />
+              </BlurFade>
+            ))}
+          </div>
+        </div>
+      </section>
       <section id="career">
         <div className="space-y-12 w-full py-12">
           <BlurFade delay={BLUR_FADE_DELAY * 13}>
