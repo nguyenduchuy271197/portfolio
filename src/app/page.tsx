@@ -141,7 +141,6 @@ export default function Page() {
                   key={project.title}
                   title={project.title}
                   description={project.description}
-                  dates={project.dates}
                   tags={project.technologies}
                   image={project.image}
                   video={project.video}
@@ -161,7 +160,7 @@ export default function Page() {
                   My Products
                 </div>
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
-                  Products I've Built
+                  Products I&apos;ve Built Products Ive Built
                 </h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                   Innovative solutions designed to solve real-world problems.
