@@ -160,7 +160,7 @@ export default function Page() {
                   My Products
                 </div>
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
-                  Products I&apos;ve Built Products Ive Built
+                  Products I&apos;ve Built
                 </h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                   Innovative solutions designed to solve real-world problems.

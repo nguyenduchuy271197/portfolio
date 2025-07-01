@@ -402,7 +402,7 @@ export const DATA = {
   careerRoles: [
     {
       title: "Tech Lead",
-      dates: "2024 - 2025",
+      dates: "2023 - 2025",
       location: "LIKELION",
       description:
         "Led a team of engineers to build a job search platform for the US market. Made key technology decisions that helped strengthen our company's market position. Improved our development processes while maintaining high quality standards.",
@@ -411,7 +411,7 @@ export const DATA = {
     },
     {
       title: "Senior Software Engineer",
-      dates: "2022 - 2024",
+      dates: "2022 - 2023",
       location: "LIKELION",
       description:
         "Built a recruiting platform connecting Vietnamese programmers with job opportunities in South Korea. Helped improve our system architecture, enhancing reliability and reducing deployment times. Implemented testing strategies that caught bugs before going live, saving significant engineering time.",
@@ -420,7 +420,7 @@ export const DATA = {
     },
     {
       title: "Web Development / Data Analysis Instructor",
-      dates: "2021 - 2024",
+      dates: "2021 - 2023",
       location: "LIKELION",
       description:
         "Trained 500+ students from universities including UIT, UEH, USSH, and IUH. Led 4 bootcamps that helped participants find jobs after completion. Built full-stack applications using React, Node.js, and PostgreSQL that increased client satisfaction by 35%. Mentored more than 10 junior developers through workshops and coding sessions. Created training programs that reduced new hire onboarding time by 40%.",
