@@ -4,9 +4,9 @@ import { HomeIcon, NotebookIcon } from "lucide-react";
 export const DATA = {
   name: "Huy Nguyen",
   initials: "HN",
-  url: "https://dillion.io",
-  location: "San Francisco, CA",
-  locationLink: "https://www.google.com/maps/place/sanfrancisco",
+  url: "https://www.huynguyen.work/",
+  location: "Ho Chi Minh City, Vietnam",
+  locationLink: "https://www.google.com/maps/place/Ho+Chi+Minh+City",
   description:
     "Software Engineer turned Indie Hacker. I love building things and helping people.",
   summary:
@@ -57,12 +57,6 @@ export const DATA = {
 
         navbar: true,
       },
-      // Youtube: {
-      //   name: "Youtube",
-      //   url: "https://dub.sh/dillion-youtube",
-      //   icon: Icons.youtube,
-      //   navbar: true,
-      // },
       email: {
         name: "Send Email",
         url: "mailto:huynguyen271197@gmail.com",
