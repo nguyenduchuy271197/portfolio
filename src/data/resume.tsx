@@ -10,7 +10,7 @@ export const DATA = {
   description:
     "Software Engineer turned Indie Hacker. I love building things and helping people.",
   summary:
-    "Senior Software Engineer with nearly 5 years of experience and a background in electrical engineering. Combined tech skills with business knowledge to grow at top tech companies. Good at building software, leading teams, and using business thinking to solve technical problems.",
+    "Senior Software Engineer with nearly 5 years of experience and a strong technical foundation. Combined tech skills with business knowledge to grow at top tech companies. Good at building software, leading teams, and using business thinking to solve technical problems.",
   avatarUrl: "/me.jpg",
   skills: [
     "React",
